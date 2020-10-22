@@ -6,13 +6,21 @@ namespace LinkedListSatckAndQueue
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Linked List  Queue");
+            Console.WriteLine("Welcome to Demo program on Linked List stack and Queue");
 
 
             LinkedListQueue queue = new LinkedListQueue();
             queue.Enqueue(50);
             queue.Enqueue(60);
             queue.Enqueue(70);
+            queue.Display();
+
+            queue.Dequeue();
+            queue.Display();
+
+            queue.Dequeue();
+            queue.Display();
+            queue.Dequeue();
             queue.Display();
         }
     }
